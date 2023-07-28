@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal-Portfolio-Website</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/5543c2cdcd.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/logo.png" class="logo" alt="" srcset="">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#services">Services</a> </li>
+                        <li><a href="#portfolio">Portfolio</a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>
+                        Web Developer
+                    </p>
+                    <h1>Hi, I'm <span>Aman</span> <br> Gupta from Varanasi, U.P</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------about-------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"><img src="Images/profile2.png" alt=""></div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm Aman Kumar Gupta, an enthusiastic tech enthusiast with a focus on Android and web development. My HTML, CSS, and JavaScript-designed portfolio website, which includes live demonstrations, highlights my front-end expertise and
+                            finished projects. I also developed a weather app using HTML, CSS, Bootstrap, and RapidAPI to demonstrate my proficiency in UI design, front-end development, and API connectivity. Additionally, I used HTML and CSS to create
+                            an Amazon clone to show my proficiency in collaborating well in a web development setting. I have good technical capabilities in MySQL, JavaScript, Kotlin, C, C++, data structures, and leadership, in addition to important soft
+                            skills like teamwork, problem-solving, and communication.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>DSA</span><br>Strong foundation in Data Structures and Algorithms</li>
+                                <li><span>Computer Networking</span><br>Network Engineer Intern</li>
+                                <li><span>Soft Skills</span><br>Leadership, Teamwork ,Problem-solving, Communication
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022</span><br> Participated in a virtual internship program by Google, gaining valuable industry experience. </li>
+                                <li><span>2022</span><br>Selected for the "Smart India Internal Hackathon” (SIH).</li>
+                                <li><span>2023</span><br>A computer networking intern at Taxtron pvt ltd from June to July 2023</li>
+
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017</span><br>High school education also completed at U.N.S.S.S.S Jaunpur (U.P.) in 2017, where Aman performed exceptionally well with a CGPA of 8.8.
+
+                                </li>
+                                <li><span>2019</span><br>Intermediate completed at U.N.S.S.S.S Jaunpur (U.P.) in 2019, securing an impressive 80.1%.</li>
+                                <li><span>2020-2024</span><br>B.Tech (Computer Science) at Bundelkhand University, Jhansi, from 2020 to 2024, with a notable CGPA of 8.1</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------services-------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web-Design</h2>
+                        <p>I provide innovative, user-centered web design services to create websites that are both aesthetically pleasing and useful. I have a specialisation in developing responsive layouts, enhancing user interfaces, and using current
+                            design trends. I work diligently to provide streamlined, captivating site designs that create a lasting impact.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Graphic-Design</h2>
+                        <p>Proficient in utilising Adobe Photoshop to create and edit graphics, pictures, and visual components.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------portfolio-------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/work-1.png" alt="" srcset="">
+                        <div class="layer">
+                            <h3>Weather app</h3>
+                            <p>HTML, CSS, Bootstrap, and RapidAPI. Real-time weather information presented in a sleek, user-friendly design. For people who are constantly on the go, modern design is ideal.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-2.png" alt="" srcset="">
+                        <div class="layer">
+                            <h3>Netflix-Clone</h3>
+                            <p>an aesthetically stunning Netflix clone app made using HTML and CSS that provides users with a smooth watching experience.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-3.png" alt="" srcset="">
+                        <div class="layer">
+                            <h3>Amazon-Clone</h3>
+                            <p>Demonstrating web development abilities via an HTML/CSS app. User-friendly, exact imitation of Amazon's design, best for e-commerce display.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- -----------------------contact-------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i> amankag2626@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 91+ 8429637741</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/aman-gupta-2b6164212/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/AmanGup03229924"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://github.com/KingAman26"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/kingaman2626/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="Images/Aman Final 001.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your E-mail" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © kingaman <i class="fa fa-heart" aria-hidden="true"></i> 2023-24</p>
+            </div>
+        </div>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                if (sidemenu) {
+                    sidemenu.style.right = "0";
+                }
+            }
+
+            function closemenu() {
+                if (sidemenu) {
+                    sidemenu.style.right = "-200px";
+                }
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzUlx0jQOVtp4WSKOOrtKd-MhOM2HjySteknshQZ4KFG5IgPIRtiSWzrP0crLIZXDtpoQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+
+</html>
